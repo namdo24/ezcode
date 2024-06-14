@@ -1,0 +1,10 @@
+<?php echo $this->runChild('layout.header'); ?>
+<title>Trang quản trị</title>
+<!-- Custom CSS -->
+<link href="assets/libs/flot/css/float-chart.css" rel="stylesheet">
+<!-- Custom CSS -->
+<link href="dist/css/style.min.css" rel="stylesheet">
+
+</head>
+<?php echo $this->yieldContent('content'); ?>
+<?php echo $this->runChild('layout.footer'); ?>

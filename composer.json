@@ -1,0 +1,18 @@
+{
+    "name": "namdo/ezcode",
+    "autoload": {
+        "psr-4": {
+            "Namdo24\\Ezcode\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "donam24",
+            "email": "namdtph31893@fpt.edu.vn"
+        }
+    ],
+    "require": {
+        "eftec/bladeone": "^4.9",
+        "bramus/router": "~1.6"
+    }
+}
